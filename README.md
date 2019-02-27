@@ -21,7 +21,8 @@ PHM的全称为Prognostics and Health Management，其目的在于不需要了�
 本项目实现了探索“工况模式”代码，只需要稍加修改，便可以进行训练。
 此外，在数据探索过程中发现，主轴负载(spindle_load)具有比较好的趋势性。因此有一种很简便但是不够精确的方法是：直接基于‘spindle_load’特征，训练回归模型。之所以这样可以做的原因是：相对于其他的特征来说，只有‘spindle_load’具有较好的长期趋势性，可见工况等因素对它的影响较小。  
  <div align=center><img  src="https://github.com/ultimatejoe/rul_of_cutter/blob/master/splendid_load%E8%B6%8B%E5%8A%BF%E6%80%A7.PNG"/>
- ‘spindle_load’具有较好的长期趋势性</div>  
+ </div>  
+ ‘spindle_load’具有较好的长期趋势性
  
 #### 3.不需要考虑工况
 如果现有的数据库中已经保存了大量的刀具的历史数据并记录了寿命标签，我们可以直接把测试集的时间序列片段同历史数据做相似度匹配，相似度最高的一部分数据的寿命值去做加权平均就是测试集的预测寿命。
