@@ -7,9 +7,10 @@
 探索sensor文件的inf分布情况、nans分布情况、naive_outliers(绝对值接近数值溢出阈值的异常值)分布情况，并分别保存：  
 *'./train_clean_condition/nans_condition_tuple'*   
 *'./train_clean_condition/infs_condition_tuple'*   
-*'./train_clean_condition/outliers_condition_tuple'*
+*'./train_clean_condition/outliers_condition_tuple'*  
 **1.3explore_train_plc_cut.ipynb**
-plc文件记录了刀具的工况数据，工况参数包括:
+plc文件记录了刀具的工况数据，工况参数包括:  
+
 | 字段名        | 说明   | 
 | --------   | -----:  |
 | time     | 记录时间 |
