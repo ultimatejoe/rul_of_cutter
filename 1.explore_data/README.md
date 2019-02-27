@@ -20,10 +20,10 @@ plc文件记录了刀具的工况数据，工况参数包括:
 | z        |   z轴机械坐标 |
 
 根据plc文件，我们使用tsfresh包提取特征，然后通过画图的方式来查看提取的特征与工况参数之间的关联性，人工选择合适的参数，最后聚类。  
-关于聚类的数量，我们把3台设备的数据拼接，观察得到的种类数是4。
-**2.1explore_test_plc_cut.ipynb**
-对test集的plc数据进行探索
-**3.1explore_final.ipynb**
+关于聚类的数量，我们把3台设备的数据拼接，观察得到的种类数是4。  
+**2.1explore_test_plc_cut.ipynb**  
+对test集的plc数据进行探索  
+**3.1explore_final.ipynb**    
 对final集的plc数据进行探索
 
 
