@@ -1,5 +1,5 @@
 # 刀具剩余寿命预测
-[工业大数据创新竞赛链接](http://www.industrial-bigdata.com/competition/competitionAction!showDetail34.action?competition.competitionId=3)
+[工业大数据创新竞赛链接](http://www.industrial-bigdata.com/competition/competitionAction!showDetail34.action?competition.competitionId=3)  
 数据集我也没有，大家不要再发邮件咨询了。
 ## 背景介绍 ##
 　　此次竞赛提供了刀具全生命周期的实验数据，数据分为控制器数据（plc）和振动采集数据（sensor），任务是给定一段时间刀具的数据，对其寿命进行预测。
